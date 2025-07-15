@@ -10,7 +10,7 @@ a = 15
 b = 4
 
 print(f"a = {a}, b = {b}")
-print()
+print("a = ",a,",b=",b)
 
 # Addition (+)
 result_add = a + b
@@ -257,6 +257,11 @@ print("2. Time Converter:")
 print("   - Ask user for seconds")
 print("   - Convert to hours, minutes, and remaining seconds")
 print("   - Example: 3661 seconds = 1 hour, 1 minute, 1 second")
+hour = int(input("Enter hour : "))
+minute = int(input("Enter minute  : "))
+second = int(input("Enter S"))
+
+
 print()
 
 print("3. Compound Interest Calculator:")
